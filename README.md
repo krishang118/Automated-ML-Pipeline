@@ -50,7 +50,7 @@ For Classification: Logistic Regression, Naive Bayes, K-Neighbors, SVM, Random F
 
 ## Acknowledgements
 
-Special thanks to the Indian Cybercrime Coordination Centre (I4C), Ministry of Home Affairs, for supporting this work.
+Special thanks to the Indian Cybercrime Coordination Centre (I4C), Ministry of Home Affairs (MHA), for supporting this work.
 
 ## Contributing
 
