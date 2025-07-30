@@ -29,8 +29,8 @@ pip install pandas numpy matplotlib scikit-learn seaborn scipy optuna xgboost li
 2. Prepare the dataset file (CSV, Excel, JSON, or Parquet) with a clear target column.
 3. Open and edit the main block in the `Automated ML Pipeline.ipynb` Jupyter Notebook to specify your data path and target column:
 ```python
-data_source = "regression_data.csv"  # Use your dataset file (the repository does contain test datasets too)
-target_column = "target"             # Change as needed
+data_source="regression_data.csv"  # Use your dataset file (the repository does contain test datasets too)
+target_column="target"             # Change as needed
 ```
 4. Run and execute the `Automated ML Pipeline.ipynb` Jupyter Notebook, ensuring that your desired models to train are selected, and that the dataset file is in the same directory.
 5. Results:
