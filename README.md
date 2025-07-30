@@ -29,17 +29,17 @@ pip install pandas numpy matplotlib scikit-learn seaborn scipy optuna xgboost li
 2. Prepare the dataset file (CSV, Excel, JSON, or Parquet) with a clear target column.
 3. Open and edit the main block in the `Automated ML Pipeline.ipynb` Jupyter Notebook to specify your data path and target column:
 ```python
-data_path = "regression_data.csv"  # Use your dataset file (the repository does contain test datasets too)
-target_column = "target"           # Change as needed
+data_source = "regression_data.csv"  # Use your dataset file (the repository does contain test datasets too)
+target_column = "target"             # Change as needed
 ```
-4. Run and execute the `Automated ML Pipeline.ipynb` Jupyter Notebook (making sure the dataset file lies in the same directory).
+4. Run and execute the `Automated ML Pipeline.ipynb` Jupyter Notebook, ensuring that your desired models to train are selected, and that the dataset file is in the same directory.
 5. Results:
    - Detailed reports and plots are displayed.
    - Predictions are saved to `predictions.csv`.
-   - The trained pipeline is saved as `automl_pipeline.pkl` and may be utilized in future workflows.
+   - The trained pipeline with the best model is saved as `best_model.pkl` and may be utilized in future workflows.
 
 - The repository includes testing datasets (`regression_data.csv`, `classification_data.csv`) and scripts for creating them (`test_regression.py`, `test_classification.py`).
-- The pipeline is highly configurable and customizable as well, and the parameters can be changed and adjusted by the user if required; especially by modifying and toggling the thresholds and options in the `Config` class and the `run_pipeline` arguments.
+- The pipeline is highly configurable and customizable as well, and the parameters can be changed and adjusted by the user if required; especially by modifying and toggling the thresholds and options in the `Config` class and the `pipeline.run()` arguments.
 
 ### Supported Models
 
